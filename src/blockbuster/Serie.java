@@ -8,9 +8,9 @@ public class Serie {
 	public String creador;
 	public String titulo;
 	
-	Serie(int id, String titulo, String creador){
+	Serie(int id, String titulo, String creador, int temps){
 		this.id = id;
-		this.temps = 5;
+		this.temps = temps;
 		this.prestado = false;
 		this.creador = creador;
 		this.titulo = titulo;
